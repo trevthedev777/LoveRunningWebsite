@@ -24,6 +24,7 @@
     #logo {
         float: left;
         font-size: 280%;
+        margin-left: 30px;
     }
 
     /* Navigation Links */
@@ -97,13 +98,35 @@
         letter-spacing: 4px;
         width: 300px;
         height: 200px;
-
         padding: 40px 0 0 10px;
-
         background-color: rgba(241, 109, 107, .7);
-
         bottom: 30px;
         right: 150px;
-
         position: absolute;
+    }
+
+    /* Club Ethos */
+
+    #club-ethos {
+        height: 600px;
+    }
+
+    #left-about {
+        padding-top: 30px;
+        width: 33%;
+        float: left;
+        background-color: blue;
+    }
+
+    #right-about {
+        padding-top: 30px;
+        width: 33%;
+        float: right;
+        background-color: silver;
+    }
+
+    #center-about {
+        width: 33%;
+        margin: 0 auto;
+        background-color: green;
     }
